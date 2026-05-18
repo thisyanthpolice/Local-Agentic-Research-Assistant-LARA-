@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Local Vector Database Storage
+chroma_db/
+
+# Shared Local Assets and Dynamic Caches
+vocabulary.txt
+__pycache__/
+*.pyc
+
+# Operating System Specific Files
+.DS_Store
+Thumbs.db
+
+# Dynamic Data Storage Folders
+data/
