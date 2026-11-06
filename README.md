@@ -51,6 +51,7 @@ Start the application server to open the Streamlit interface:
 streamlit run app.py
 ```
 You can query the system naturally. The agent will show its workflow (sanitizing queries, retrieving context, and evaluating relevancy) before streaming the final response.
-
+> **Performance Note:** Execution speed may vary depending on your hardware specifications. While running these models on a dedicated GPU provides optimal performance, execution on a CPU-only setup may result in slower processing times.
+> 
 ## Security & Privacy
 Because all models and vector stores run locally, no data is transmitted over the internet. The application is completely air-gapped once the base models are downloaded, making it suitable for processing sensitive or confidential documents.
